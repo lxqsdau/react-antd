@@ -1,0 +1,23 @@
+{
+  "name": "react-antd-learn",
+  "options": {
+    "type": "uxcore",
+    "template": "https://github.com/nowa-webpack/template-uxcore/archive/v4.zip",
+    "npm": "https://registry.npm.taobao.org",
+    "vars": {
+      "__LOCAL__": true
+    },
+    "buildvars": {
+      "__LOCAL__": [false]
+    },
+    "pages": true,
+    "injects": [],
+    "alias": {
+      "components":"components",
+      "i18n": "i18n"
+    },
+    "mockapi": {
+      "/mock/user/query.json": "mock/user/query.js"
+    }
+  }
+}
